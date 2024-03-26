@@ -1,0 +1,27 @@
+TaskGuardian
+Description:
+Role-Based Task Management System API
+Build a backend system for a task management tool where users have different
+roles. Admins can do everything, managers can assign tasks, and regular users can
+complete tasks assigned to them. Make sure users can only access features based
+on their role.
+Roles:
+Admin: Admin users have full access to all functionalities, including creating,
+updating, deleting tasks, as well as managing users and their roles.
+Manager: Manager users have access to creating, updating, and deleting tasks, as
+well as assigning tasks to other users. They cannot manage users or roles.
+Regular User: Regular users can view, create, update, and delete tasks assigned to
+them. They cannot perform administrative tasks or assign tasks to others.
+Technologies:
+● Choose a backend framework like Express/Fastify (Node.js),
+FastAPI/Flask(Python), Gin/Fibre (Golang) or Axum/Rocket (Rust)
+● Database: MongoDB or PostgreSQL.
+Tasks:
+1. Implement role-based authentication to restrict access to API endpoints
+based on user roles.
+2. Design and implement RESTful APIs for CRUD operations on tasks.
+
+3. Create endpoints for assigning tasks to users and managing task statuses
+4. Implement error handling for unauthorized access attempts and invalid
+requests.
+5. (Optional) Dockerize the application.
